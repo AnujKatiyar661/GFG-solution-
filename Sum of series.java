@@ -1,11 +1,17 @@
 
-// User function Template for Java
+
 
 class Solution {
-    // function to return sum of  1, 2, ... n
+   
     long seriesSum(int n) {
         // code here
-          long sum=(long)n*(n+1)/2;
+       //   long sum=(long)n*(n+1)/2;
+    // we can do it by for loop 
+    long sum=0L;
+    for(int i=1;i<=n;i++)
+    {
+          sum+=i;
+    }
           return sum;
     }
 }
